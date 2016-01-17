@@ -1,6 +1,5 @@
 body{
-  margin:0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
   font-weight:300;
 }
 .primary-text{
@@ -61,9 +60,6 @@ main{
 div[class*="col-"]{
   float:left;
   box-sizing:border-box;
-}
-.col-quarter{
-  width:25%;
 }
 .col-half{
   width:50%;
@@ -167,5 +163,65 @@ footer nav li a:hover{
   /* MOBILE (SMALL) */
 
   @media screen and (max-width:768px){
-
+    padding: 10px 15px;
   }
+header .text{
+  display:none;
+}
+header .text{
+  display: none;
+}
+main{
+  padding: 10px 15px;
+}
+.profile{
+  width: 100%;
+  padding: 0;
+}
+.profile .image{
+  width:48%;
+  float: left;
+  box-sizing:border-box;
+}
+.profil .image img{
+  max-width: 100%;
+}
+.profile .bio{
+  width:48%;
+  margin-top: 0;
+  float:right;
+  box-sizing:border-box;
+  padding: 10px;
+}
+.profile .bio h1{
+  margin-top: 0;
+}
+profile .bio .joined{
+  display:none;
+}
+.profile .bio p{
+  margin-bottom: 0;
+}
+.content{
+  width: 100%;
+  padding: 0;
+}
+.content .stats{
+  margin-top: 25px;
+}
+.content .tweets .actions{
+  display:none;
+}
+.suggestions{
+  padding: 0;
+  width: 100%;
+  margin-top: 25px;
+}
+.suggestions .list{
+  overflow: auto;
+}
+.suggestions .list .user{
+  float:left;
+  width:33.3%;
+}
+}
